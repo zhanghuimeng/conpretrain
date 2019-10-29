@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" serverName="zhm@166.111.5.234:22">
     <serverData>
       <paths name="242">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/data/disk3/private/zhm/201910_cotrain/dep" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
@@ -19,7 +19,7 @@
       <paths name="zhm@166.111.5.234:22">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/data/disk4/private/zhm/201910_cotrain/dep" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
