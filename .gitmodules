@@ -1,3 +1,9 @@
 [submodule "bert"]
 	path = bert
 	url = git@github.com:google-research/bert.git
+[submodule "THUMT"]
+	path = THUMT
+	url = git@github.com:zhanghuimeng/THMUT-detached.git
+[submodule "subword-nmt"]
+	path = subword-nmt
+	url = https://github.com/rsennrich/subword-nmt.git
