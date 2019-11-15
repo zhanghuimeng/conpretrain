@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-export PYTHONPATH=/home2/private/zhm/201910_cotrain/dep/THUMT:$PYTHONPATH
+export PYTHONPATH=/home1/private/zhm/201910_cotrain/dep/THUMT:$PYTHONPATH
 # Train De-En model
 python THUMT/thumt/bin/trainer.py \
     --input data/corpus.tc.32k.de.shuf data/corpus.tc.32k.en.shuf \

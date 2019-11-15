@@ -12,7 +12,7 @@
       <paths name="243">
         <serverdata>
           <mappings>
-            <mapping deploy="/home2/private/zhm/201910_cotrain/dep" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home1/private/zhm/201910_cotrain/dep" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
