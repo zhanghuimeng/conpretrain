@@ -3,6 +3,7 @@ export PYTHONPATH=/home1/private/zhm/201910_cotrain/dep/THUMT:$PYTHONPATH
 # Train De-En model
 python THUMT/thumt/bin/trainer.py \
     --input data/corpus.tc.32k.de.shuf data/corpus.tc.32k.en.shuf \
+    --output de-en-model/ \
     --vocabulary data/vocab.32k.de.txt data/vocab.32k.en.txt \
     --model transformer \
     --validation data/dev/newstest2014.tc.32k.de \
