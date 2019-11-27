@@ -349,3 +349,4 @@ pip-selfcheck.json
 
 # self-defined
 data/
+*model/
