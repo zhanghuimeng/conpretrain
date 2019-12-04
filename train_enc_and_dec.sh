@@ -3,7 +3,7 @@ export CUDA_VISIBLE_DEVICES=0,1
 # 检查拼起来的enc-dec的效果
 python THUMT/thumt/bin/train_enc_and_dec.py \
     --input data/corpus.tc.32k.en.shuf data/corpus.tc.32k.de.shuf \
-    --output en-de-concat-model/small \
+    --output en-de-concat-model/small-2 \
     --vocabulary data/vocab.32k.en.txt data/vocab.32k.de.txt \
     --enc_ckpt ckpt/en-de-trans/model.ckpt-161001 \
     --dec_ckpt ckpt/de-frozen-ae/model.ckpt-186001 \
