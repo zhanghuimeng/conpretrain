@@ -5,7 +5,7 @@ import bert.tokenization as tokenization
 
 parser = argparse.ArgumentParser(
     description="Tokenize a corpus file using BERT tokenizer.",
-    usage="tokenize.py [<args>] [-h | --help]"
+    usage="bert_tokenizerpython.py [<args>] [-h | --help]"
 )
 
 parser.add_argument("--input", type=str,

@@ -1,8 +1,8 @@
 export PYTHONPATH=/home1/private/zhm/201910_cotrain/dep/THUMT:$PYTHONPATH
-export CUDA_VISIBLE_DEVICES=0,1
+# ckpt/bert/multi_cased_L-12_H-768_A-12/bert_model.ckpt
 
 python THUMT/thumt/bin/compare_ckpt.py \
     --model transformer \
     --metrics d1_norm \
-    --output d1_norm.csv \
-    --checkpoints ckpt/de-ae/model.ckpt-200000 de-decoder-model/5m-val-copy/eval/model.ckpt-199000  ckpt/en-de-trans/model.ckpt-161001 ckpt/de-en-trans/model.ckpt-187000
+    --output d1_norm_0-40000.csv \
+    --checkpoints /data/disk6/private/zhm/en-de-bert-model/decoder/20200201/model.ckpt-0 /data/disk6/private/zhm/en-de-bert-model/decoder/20200201/model.ckpt-40000

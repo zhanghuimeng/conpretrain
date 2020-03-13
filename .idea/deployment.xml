@@ -19,7 +19,7 @@
       <paths name="zhm@166.111.5.234:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/data/disk4/private/zhm/201910_cotrain/dep" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/data/disk1/private/zhm/201910_cotrain/dep" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
